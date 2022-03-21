@@ -1,0 +1,30 @@
+.banner {
+  display: flex;
+  /* background-color: aqua; */
+  width: 700px;
+  height: 60px;
+  justify-content: center;
+}
+.clock {
+  width: 20%;
+  font-size: 25px;
+  background-color: black;
+  color: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid rgb(73, 73, 73);
+}
+.clock .time {
+  display: flex;
+  justify-content: center;
+}
+#title {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  border: 2px solid rgb(73, 73, 73);
+}
+#title_hello {
+  margin: 0 auto;
+}
